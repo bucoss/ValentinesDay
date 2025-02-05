@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.butoane {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.willYou {
+  text-align: center;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+}
+
+.yesButton {
+  margin-right: 30px;
+  background-color: green;
+}
+
+.noButton {
+  margin-left: 30px;
+  background-color: red;
+}
